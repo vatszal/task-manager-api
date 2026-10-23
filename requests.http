@@ -1,0 +1,12 @@
+
+### Get all tasks
+GET http://localhost:8080/tasks
+
+### Create a task
+POST http://localhost:8080/tasks
+
+### Get all tasks again
+GET http://localhost:8080/tasks
+
+### Completed true
+PATCH http://localhost:8080/tasks/1 Content-Type: application/json {"completed": true}
